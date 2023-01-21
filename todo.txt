@@ -1,0 +1,11 @@
+Fazer a grade de 20 cartas, 4 colunas e 5 linhas para telas "landscape" e 5 colunas e 4 linhas para telas "portraits" - feito
+
+centralizar símbolos dentro de cada carta - feito por enquanto
+
+estilizar as cartas - feito por enquanto
+
+lógica do jogo
+
+animação das cartas com base na lógica do jogo
+
+terminar a estilização do jogo

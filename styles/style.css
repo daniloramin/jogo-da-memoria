@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  margin: auto;
+  border: 1px solid red;
+  width: 900px;
+  display: grid;
+  grid-template: auto auto auto auto auto / auto auto auto auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  font-size: 3rem;
+  background-color: bisque;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px 0px gray;
+}
+
+@media only screen and (orientation: landscape) {
+  .container {
+    grid-template: auto auto auto auto / auto auto auto auto auto;
+  }
+}
