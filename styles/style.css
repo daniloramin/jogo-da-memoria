@@ -35,12 +35,12 @@ body {
   box-shadow: 4px 4px 4px 0px gray;
 }
 
-.card:hover {
+/* .card:hover {
   animation-name: cardFlip;
   animation-duration: 200ms;
   animation-timing-function: linear;
   animation-fill-mode: both;
-}
+} */
 
 @media only screen and (orientation: landscape) {
   .container {

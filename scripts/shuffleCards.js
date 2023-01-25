@@ -10,7 +10,7 @@ export default () => {
   }
 
   for (let i = 0; i < fruits.length; i++) {
-    screenCards[i].innerText = fruits[i];
-    screenCards[i + 10].innerText = fruits[i];
+    screenCards[i].dataset.card = fruits[i];
+    screenCards[i + 10].dataset.card = fruits[i];
   }
 };

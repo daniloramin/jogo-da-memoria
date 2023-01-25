@@ -7,9 +7,11 @@ estilizar as cartas - feito por enquanto
 lógica do jogo
   criar o conjunto de cartas - feito o primeiro
 
-  fazer a lógica de click na carta
+  fazer a lógica de click na carta - fiz por enquanto
   
   só duas cartas podem ser viradas por turno
+
+  adicionar o identificador de par no turno 
 
   virar as cartas novamente caso não formar um par
 
