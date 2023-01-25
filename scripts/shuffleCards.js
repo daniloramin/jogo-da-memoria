@@ -13,6 +13,4 @@ export default () => {
     screenCards[i].innerText = fruits[i];
     screenCards[i + 10].innerText = fruits[i];
   }
-
-  console.log(screenCards);
 };

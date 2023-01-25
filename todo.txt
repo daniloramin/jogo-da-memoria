@@ -6,6 +6,8 @@ estilizar as cartas - feito por enquanto
 
 lógica do jogo
   criar o conjunto de cartas - feito o primeiro
+
+  fazer a lógica de click na carta
   
   só duas cartas podem ser viradas por turno
 
@@ -17,6 +19,8 @@ lógica do jogo
 
   finalizar o jogo ao formar todos os pares de cartas
 
-animação das cartas com base na lógica do jogo
+criar a animação de flip da carta - feito
+
+vincular a animação das cartas com base na lógica do jogo
 
 terminar a estilização do jogo
