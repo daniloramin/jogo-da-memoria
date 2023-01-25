@@ -5,6 +5,17 @@ centralizar símbolos dentro de cada carta - feito por enquanto
 estilizar as cartas - feito por enquanto
 
 lógica do jogo
+  criar o conjunto de cartas - feito o primeiro
+  
+  só duas cartas podem ser viradas por turno
+
+  virar as cartas novamente caso não formar um par
+
+  manter cartas viradas ao formar um par
+
+  embaralhar as cartas ao iniciar o jogo
+
+  finalizar o jogo ao formar todos os pares de cartas
 
 animação das cartas com base na lógica do jogo
 
