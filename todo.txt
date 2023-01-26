@@ -17,12 +17,12 @@ lógica do jogo
 
   manter cartas viradas ao formar um par - feito
 
-  embaralhar as cartas ao iniciar o jogo
-
-  finalizar o jogo ao formar todos os pares de cartas
+  finalizar o jogo ao formar todos os pares de cartas - feito
 
 criar a animação de flip da carta - feito
 
-vincular a animação das cartas com base na lógica do jogo
+criar a tela de jogo finalizado com o botão de reiniciar o jogo - feito pela metade
 
-terminar a estilização do jogo
+terminar de estilizar as cartas
+
+criar animação de cartas embaralhando no inicio do jogo e quando reiniciar o jogo

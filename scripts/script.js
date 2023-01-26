@@ -2,13 +2,14 @@ import { fruits } from "./cardsGroup.js";
 import shuffleCards from "./shuffleCards.js";
 
 const delay = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
+const finishScreen = document.getElementById("finishScreen");
 
 const turn = {
   first: null,
   second: null,
 };
 
-const pairs = [];
+let pairs = [];
 
 shuffleCards();
 
@@ -42,8 +43,8 @@ cards.forEach((card) => {
         turn.second.style.animation = "200ms linear backwards reverseCardFlip";
 
         await delay(100);
-        turn.first.innerText = "x";
-        turn.second.innerText = "x";
+        turn.first.innerText = "🧠";
+        turn.second.innerText = "🧠";
 
         turn.first.dataset.clicked = "false";
         turn.second.dataset.clicked = "false";
@@ -58,9 +59,27 @@ cards.forEach((card) => {
 
       turn.first = null;
       turn.second = null;
+
+      if (pairs.length == 10) {
+        finishScreen.style.display = "block";
+      }
       return;
     }
 
     turn.first = target;
+  });
+});
+
+document.getElementById("restartButton").addEventListener("click", () => {
+  finishScreen.style.display = "none";
+
+  pairs = [];
+
+  shuffleCards();
+
+  cards.forEach((card) => {
+    card.innerText = "🧠";
+    card.dataset.clicked = "false";
+    card.style.animation = "none";
   });
 });

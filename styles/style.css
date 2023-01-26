@@ -20,10 +20,21 @@
 
 body {
   background-color: aliceblue;
+  font-family: cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid blue;
+  margin: 1rem auto;
+  width: 1000px;
+  font-size: 3rem;
 }
 
 .container {
-  margin: auto;
+  margin: 0px auto;
   border: 1px solid red;
   width: 900px;
   display: grid;
@@ -43,6 +54,42 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 4px 4px 4px 0px gray;
+}
+
+#finishScreen {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  border: 1px solid green;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#finishScreen h2,
+#finishScreen button {
+  position: relative;
+  top: 40%;
+  color: azure;
+}
+
+#restartButton {
+  background-color: black;
+  border: none;
+  outline: 1px solid azure;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: color 500ms, border 500ms;
+  border-radius: 10px;
+}
+
+#restartButton:hover {
+  background-color: azure;
+  color: black;
+  border: 1px solid black;
+  outline: none;
 }
 
 /* .card:hover {
