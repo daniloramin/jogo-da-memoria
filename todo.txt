@@ -1,17 +1,17 @@
 Fazer a grade de 20 cartas, 4 colunas e 5 linhas para telas "landscape" e 5 colunas e 4 linhas para telas "portraits" - feito
 
-centralizar símbolos dentro de cada carta - feito por enquanto
+centralizar símbolos dentro de cada carta - feito
 
-estilizar as cartas - feito por enquanto
+estilizar as cartas - feito
 
 lógica do jogo
   criar o conjunto de cartas - feito o primeiro
 
-  fazer a lógica de click na carta - fiz por enquanto
+  fazer a lógica de click na carta - fiz
   
   só duas cartas podem ser viradas por turno - fiz
 
-  adicionar o identificador de par no turno - feito?
+  adicionar o identificador de par no turno - feito
 
   virar as cartas novamente caso não formar um par - feito
 
@@ -21,8 +21,10 @@ lógica do jogo
 
 criar a animação de flip da carta - feito
 
-criar a tela de jogo finalizado com o botão de reiniciar o jogo - feito pela metade
+criar a tela de jogo finalizado com o botão de reiniciar o jogo - feito
 
-terminar de estilizar as cartas
+terminar de estilizar as cartas - feito
 
-criar animação de cartas embaralhando no inicio do jogo e quando reiniciar o jogo
+
+adicionar novos conjuntos de cartas
+corrigir a finish screen

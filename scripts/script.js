@@ -25,10 +25,11 @@ cards.forEach((card) => {
     if (pairs.includes(target.dataset.card)) return;
 
     target.dataset.clicked = "true";
-    target.style.animation = "200ms linear backwards cardFlip";
+    target.style.animation = "200ms linear both cardFlip";
 
     await delay(100);
     target.innerText = target.dataset.card;
+    target.style.backgroundColor = "white";
 
     if (turn.first) {
       turn.second = target;
@@ -39,12 +40,15 @@ cards.forEach((card) => {
       if (turn.first.dataset.card != turn.second.dataset.card) {
         await delay(1000);
 
-        turn.first.style.animation = "200ms linear backwards reverseCardFlip";
-        turn.second.style.animation = "200ms linear backwards reverseCardFlip";
+        turn.first.style.animation = "200ms linear both reverseCardFlip";
+        turn.second.style.animation = "200ms linear both reverseCardFlip";
 
         await delay(100);
         turn.first.innerText = "🧠";
         turn.second.innerText = "🧠";
+
+        turn.first.style.backgroundColor = "lightskyblue";
+        turn.second.style.backgroundColor = "lightskyblue";
 
         turn.first.dataset.clicked = "false";
         turn.second.dataset.clicked = "false";
@@ -81,5 +85,6 @@ document.getElementById("restartButton").addEventListener("click", () => {
     card.innerText = "🧠";
     card.dataset.clicked = "false";
     card.style.animation = "none";
+    card.style.backgroundColor = "lightskyblue";
   });
 });
