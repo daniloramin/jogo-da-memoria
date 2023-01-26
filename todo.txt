@@ -9,13 +9,13 @@ lógica do jogo
 
   fazer a lógica de click na carta - fiz por enquanto
   
-  só duas cartas podem ser viradas por turno
+  só duas cartas podem ser viradas por turno - fiz
 
-  adicionar o identificador de par no turno 
+  adicionar o identificador de par no turno - feito?
 
-  virar as cartas novamente caso não formar um par
+  virar as cartas novamente caso não formar um par - feito
 
-  manter cartas viradas ao formar um par
+  manter cartas viradas ao formar um par - feito
 
   embaralhar as cartas ao iniciar o jogo
 
