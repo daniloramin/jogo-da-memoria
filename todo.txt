@@ -26,5 +26,10 @@ criar a tela de jogo finalizado com o botão de reiniciar o jogo - feito
 terminar de estilizar as cartas - feito
 
 
+corrigir a finish screen - feito
+
+
+
+
+futuro:
 adicionar novos conjuntos de cartas
-corrigir a finish screen

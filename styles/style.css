@@ -108,5 +108,11 @@ h1 {
 
   #finishScreen h2 {
     color: black;
+    font-size: 3rem;
+  }
+
+  #restartButton {
+    font-size: 3rem;
+    padding: 20px 40px;
   }
 }
