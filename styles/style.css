@@ -4,7 +4,7 @@
   }
   to {
     transform: rotateY(0deg);
-    box-shadow: -4px 4px 4px 0px gray;
+    box-shadow: 4px 4px 4px 0px gray;
   }
 }
 
@@ -14,7 +14,7 @@
   }
   to {
     transform: rotateY(180deg);
-    box-shadow: 4px 4px 4px 0px gray;
+    box-shadow: -4px 4px 4px 0px gray;
   }
 }
 
@@ -23,21 +23,18 @@ body {
   font-family: cursive;
   margin: 0px;
   padding: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 h1 {
   text-align: center;
-  /* margin: 1rem auto; */
+  margin: 1rem auto;
   width: 1000px;
   font-size: 3rem;
 }
 
 .container {
-  /* margin: 0px auto; */
-  width: 900px;
+  margin: 0px auto;
+  width: 1000px;
   display: grid;
   grid-template: auto auto auto auto auto / auto auto auto auto;
   gap: 10px;
@@ -54,8 +51,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 4px 4px 4px 0px gray;
+  box-shadow: -4px 4px 4px 0px gray;
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 #finishScreen {
@@ -93,13 +91,6 @@ h1 {
   outline: none;
 }
 
-/* .card:hover {
-  animation-name: cardFlip;
-  animation-duration: 200ms;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-} */
-
 @media only screen and (orientation: landscape) {
   .container {
     grid-template: auto auto auto auto / auto auto auto auto auto;
@@ -109,8 +100,8 @@ h1 {
 @media only screen and (max-width: 1023px) {
   #finishScreen {
     position: static;
-    /* margin: 0px auto; */
-    width: 500px;
+    margin: 0px auto;
+    width: 1000px;
     z-index: 0;
     background-color: unset;
   }
